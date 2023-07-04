@@ -1,20 +1,18 @@
 <template>
   <div class="container">
-    <router-link to="/">
-      <button>홈</button>
-    </router-link>
-    <router-link to="/contact">
-      <button>컨택트</button>
-    </router-link>
+    <NavPage />
     <hr />
     <router-view></router-view>
   </div>
 </template>
 
 <script>
-
+import NavPage from '@/components/nav/NavPage.vue'
 export default {
-
+  
+  components : {
+    NavPage
+  },
   setup () {
     
     return {}
