@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div style="height: 200px;">
         <router-link to="/">
             <button>홈</button>
         </router-link>
